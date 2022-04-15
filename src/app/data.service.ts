@@ -11,6 +11,9 @@ export class DataService {
 
   getTrendingGifs(){
     return this.http.get(`https://api.giphy.com/v1/gifs/trending?api_key=mrhUkIPZHRPU9CUUURIsmv97k9Dedqd8&limit=25&rating=g`);
+
+
+    
                          
     
   }
