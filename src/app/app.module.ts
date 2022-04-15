@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 import { HttpClientModule } from'@angular/common/http';
+import { GifsComponent } from './gifs/gifs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SearchComponent
+    SearchComponent,
+    GifsComponent
   ],
   imports: [
     BrowserModule,
